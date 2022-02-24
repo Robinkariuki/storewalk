@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Home from './components/pages/home';
 import Navigation from './components/nav';
+import Sections from './components/pages/sections';
+import Questions from './components/questions';
 
 function App() {
   return (
@@ -15,11 +17,12 @@ function App() {
 <Navigation/>
   <Routes>
   <Route path='/' element={<Home />}/>
+  <Route path='/sections' element={<Sections/>}/>
+  <Route path ='/questions' element={<Questions/>}/>
   </Routes>
 
 </Router>
   );
 }
-jasd
 
 export default App;
