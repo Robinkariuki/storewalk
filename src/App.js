@@ -8,7 +8,8 @@ import {
 import Home from './components/pages/home';
 import Navigation from './components/nav';
 import Sections from './components/pages/sections';
-import Questions from './components/questions';
+// import Questions from './components/questions';
+import MainEntrance from './components/mainEntrance';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
   <Routes>
   <Route path='/' element={<Home />}/>
   <Route path='/sections' element={<Sections/>}/>
-  <Route path ='/questions' element={<Questions/>}/>
+  <Route path ='/mainEntrance' element={<MainEntrance/>}/>
   </Routes>
 
 </Router>

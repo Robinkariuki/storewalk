@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import "./home.css"
 
 const Home = () => {
@@ -30,7 +31,7 @@ const Home = () => {
 
   </Form.Group>
 
-
+  <Button variant="primary" size="sm">Submit</Button>
    </Form>
    </div>
    </div>
