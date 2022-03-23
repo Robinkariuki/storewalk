@@ -30,32 +30,11 @@ const Stockroom =  {
             "title": "who"
         },{
           "name":"Stockroom_when1",
-          "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
       {
         "name": "Stockroom_completion1",
         "cellType": "radiogroup",
@@ -110,32 +89,11 @@ const Stockroom =  {
             "title": "who"
         },{
           "name":"Stockroom_when2",
-          "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
       {
         "name": "Stockroom_completion2",
         "cellType": "radiogroup",
@@ -193,32 +151,11 @@ const Stockroom =  {
             "title": "who"
         },{
           "name":"Stockroom_when3",
-          "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
       {
         "name": "Stockroom_completion3",
         "cellType": "radiogroup",

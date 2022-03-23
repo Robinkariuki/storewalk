@@ -9,7 +9,7 @@ import Home from './components/pages/home';
 import Navigation from './components/nav';
 import Sections from './components/pages/sections';
 // import Questions from './components/questions';
-import MainEntrance from './components/mainEntrance';
+import Questions from './components/Questions';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
   <Routes>
   <Route path='/' element={<Home />}/>
   <Route path='/sections' element={<Sections/>}/>
-  <Route path ='/mainEntrance' element={<MainEntrance/>}/>
+  <Route path ='/Questions' element={<Questions/>}/>
   </Routes>
 
 </Router>

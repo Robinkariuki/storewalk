@@ -30,32 +30,11 @@ const GM = {
             "title": "who"
         },{
           "name":"GM_when1",
-          "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
       {
         "name": "GM_completion1",
         "cellType": "radiogroup",
@@ -108,33 +87,12 @@ const GM = {
             "title": "who"
         },
         {
-        "name":"GM_when2" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "name":"GM_when2",
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
 
 
 
@@ -186,33 +144,12 @@ const GM = {
             "title": "who"
         },
         {
-        "name":"GM_when3" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "name":"GM_when3",
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
 
 
 
@@ -269,33 +206,12 @@ const GM = {
             "title": "who"
         },
         {
-        "name":"GM_when4" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "name":"GM_when4",
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
 
 
 
@@ -355,33 +271,12 @@ const GM = {
             "title": "who"
         },
         {
-        "name":"GM_when5" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "name":"GM_when5",
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
 
 
 

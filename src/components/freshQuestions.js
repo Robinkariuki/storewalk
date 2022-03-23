@@ -30,32 +30,11 @@ const Fresh = {
             "title": "who"
         },{
           "name":"Fresh_when1",
-          "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
       {
         "name": "Fresh_completion1",
         "cellType": "radiogroup",
@@ -116,33 +95,12 @@ const Fresh = {
           "title": "who"
       },
       {
-      "name":"Fresh_when2" ,
-      "title": "when(hrs)",  
-      "choices": [
-        {
-         "value": 1,
-         "text": "1"
-        },
-        {
-         "value": 2,
-         "text": "2"
-        },
-        {
-         "value": 3,
-         "text": "3"
-        },
-        {
-          "value": 4,
-          "text": "4"
-         }
-         , {
-          "value": 5,
-          "text": "5"
-         }, {
-          "value": 6,
-          "text": "6"
-         }
-       ]},
+        "name":"Fresh_when2",
+        "title":"when(hrs)",
+        "cellType":"text",
+        "inputType":"time",
+  
+     },
     {
       "name": "Fresh_completion2",
       "cellType": "radiogroup",
@@ -281,33 +239,13 @@ const Fresh = {
       "title": "who"
   },
   {
-  "name":"Fresh_when4",
-  "title": "when(hrs)",  
-  "choices": [
-    {
-     "value": 1,
-     "text": "1"
-    },
-    {
-     "value": 2,
-     "text": "2"
-    },
-    {
-     "value": 3,
-     "text": "3"
-    },
-    {
-      "value": 4,
-      "text": "4"
-     }
-     , {
-      "value": 5,
-      "text": "5"
-     }, {
-      "value": 6,
-      "text": "6"
-     }
-   ]},
+    "name":"Fresh_when4",
+    "title":"when(hrs)",
+    "cellType":"text",
+    "inputType":"time",
+
+ }
+  ,
   {
   "name": "Fresh_completion4",
   "cellType": "radiogroup",
@@ -372,33 +310,12 @@ const Fresh = {
       "title": "who"
   },
   {
-  "name":"Fresh_when5",
-  "title": "when(hrs)",  
-  "choices": [
-    {
-     "value": 1,
-     "text": "1"
-    },
-    {
-     "value": 2,
-     "text": "2"
-    },
-    {
-     "value": 3,
-     "text": "3"
-    },
-    {
-      "value": 4,
-      "text": "4"
-     }
-     , {
-      "value": 5,
-      "text": "5"
-     }, {
-      "value": 6,
-      "text": "6"
-     }
-   ]},
+    "name":"Fresh_when5",
+    "title":"when(hrs)",
+    "cellType":"text",
+    "inputType":"time",
+
+ },
   {
   "name": "Fresh_completion5",
   "cellType": "radiogroup",
@@ -453,33 +370,13 @@ const Fresh = {
         "title": "who"
     },
     {
-    "name":"Fresh_when5",
-    "title": "when(hrs)",  
-    "choices": [
-      {
-       "value": 1,
-       "text": "1"
-      },
-      {
-       "value": 2,
-       "text": "2"
-      },
-      {
-       "value": 3,
-       "text": "3"
-      },
-      {
-        "value": 4,
-        "text": "4"
-       }
-       , {
-        "value": 5,
-        "text": "5"
-       }, {
-        "value": 6,
-        "text": "6"
-       }
-     ]},
+      "name":"Fresh_when6",
+      "title":"when(hrs)",
+      "cellType":"text",
+      "inputType":"time",
+
+   }
+   ,
     {
     "name": "Fresh_completion6",
     "cellType": "radiogroup",
@@ -531,33 +428,12 @@ const Fresh = {
             "title": "who"
         },
         {
-        "name":"Fresh_when7",
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+          "name":"Fresh_when7",
+          "title":"when(hrs)",
+          "cellType":"text",
+          "inputType":"time",
+    
+       },
         {
         "name": "Fresh_completion7",
         "cellType": "radiogroup",
@@ -608,33 +484,12 @@ const Fresh = {
                 "title": "who"
             },
             {
-            "name":"Fresh_when8",
-            "title": "when(hrs)",  
-            "choices": [
-              {
-               "value": 1,
-               "text": "1"
-              },
-              {
-               "value": 2,
-               "text": "2"
-              },
-              {
-               "value": 3,
-               "text": "3"
-              },
-              {
-                "value": 4,
-                "text": "4"
-               }
-               , {
-                "value": 5,
-                "text": "5"
-               }, {
-                "value": 6,
-                "text": "6"
-               }
-             ]},
+              "name":"Fresh_when8",
+              "title":"when(hrs)",
+              "cellType":"text",
+              "inputType":"time",
+        
+           },
             {
             "name": "Fresh_completion8",
             "cellType": "radiogroup",
@@ -687,33 +542,12 @@ const Fresh = {
                     "title": "who"
                 },
                 {
-                "name":"Fresh_when9",
-                "title": "when(hrs)",  
-                "choices": [
-                  {
-                   "value": 1,
-                   "text": "1"
-                  },
-                  {
-                   "value": 2,
-                   "text": "2"
-                  },
-                  {
-                   "value": 3,
-                   "text": "3"
-                  },
-                  {
-                    "value": 4,
-                    "text": "4"
-                   }
-                   , {
-                    "value": 5,
-                    "text": "5"
-                   }, {
-                    "value": 6,
-                    "text": "6"
-                   }
-                 ]},
+                  "name":"Fresh_when9",
+                  "title":"when(hrs)",
+                  "cellType":"text",
+                  "inputType":"time",
+            
+               },
                  
                 {
                 "name": "Fresh_completion9",

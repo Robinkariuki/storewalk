@@ -29,33 +29,12 @@ const FMCG =  {
             "cellType": "text",
             "title": "who"
         },{
-          "name":"FMCG_when1",
-          "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when1",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         },
       {
         "name": "FMCG_completion1",
         "cellType": "radiogroup",
@@ -113,33 +92,12 @@ const FMCG =  {
             "title": "who"
         },
         {
-        "name":"FMCG_when2" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when2",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         },
 
 
 
@@ -192,33 +150,12 @@ const FMCG =  {
             "title": "who"
         },
         {
-        "name":"FMCG_when3" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when3",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         },
 
 
 
@@ -276,33 +213,12 @@ const FMCG =  {
             "title": "who"
         },
         {
-        "name":"FMCG_when4" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when4",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         },
 
 
 
@@ -356,33 +272,13 @@ const FMCG =  {
             "title": "who"
         },
         {
-        "name":"FMCG_when5" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when5",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         }
+        ,
 
 
 
@@ -440,33 +336,12 @@ const FMCG =  {
             "title": "who"
         },
         {
-        "name":"FMCG_when6" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when6",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         },
 
 
 
@@ -527,33 +402,12 @@ const FMCG =  {
             "title": "who"
         },
         {
-        "name":"FMCG_when7" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when7",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         },
 
 
 
@@ -609,33 +463,12 @@ const FMCG =  {
             "title": "who"
         },
         {
-        "name":"FMCG_when8" ,
-        "title": "when(hrs)",  
-        "choices": [
-          {
-           "value": 1,
-           "text": "1"
-          },
-          {
-           "value": 2,
-           "text": "2"
-          },
-          {
-           "value": 3,
-           "text": "3"
-          },
-          {
-            "value": 4,
-            "text": "4"
-           }
-           , {
-            "value": 5,
-            "text": "5"
-           }, {
-            "value": 6,
-            "text": "6"
-           }
-         ]},
+            "name":"FMCG_when8",
+            "title":"when(hrs)",
+            "cellType":"text",
+            "inputType":"time",
+      
+         },
 
 
 

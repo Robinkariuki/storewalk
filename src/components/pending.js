@@ -1,4 +1,6 @@
 import React from 'react'
+StylesManager.applyTheme("modern");
+
 
 const Pending = () => {
   return (
