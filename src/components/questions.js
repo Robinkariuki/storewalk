@@ -12,6 +12,7 @@ import GM from './gmQuestions';
 import Furniture from './furnitureQuestions';
 import Stockroom from './stockroomQuestions';
 import Receiving from './receivingQuestions';
+import axios from "axios";
 
 
 
@@ -24,7 +25,7 @@ const surveyJson = {
 
   "progressBarType": "buttons",
   "showProgressBar": "top",
-
+  "checkErrorsMode": "onComplete",
     "pages":[
       MainEntranceQuestion,
       Fresh,
@@ -58,16 +59,29 @@ const Questions = () => {
     survey.focusFirstQuestionAutomatic = false;
   
     const alertResults = useCallback((sender) => {
-      const results = JSON.stringify(sender.data);
-      alert(results);
+      const results = sender.data;
+      // alert(results);
       console.log(results)
-    }, []);
 
+       axios({
+         method:"post",
+         url:"http://localhost:5000/storewalk/api/questionData",
+         data:results
+        })
+         .then(resp=>{
+           console.log(resp)
+         })
+         .catch(err=>{
+            console.log(err)
+         })
+      
+    }, []);
+     
+    
 
     survey.onComplete.add(alertResults);
 
-
-
+    
 
 
   return (

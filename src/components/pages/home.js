@@ -11,25 +11,32 @@ const Home = () => {
       <div className="col-md-4">
 
    <Form  >
-      
+   <Form.Group className="mb-3" controlId="Payroll Number">
+    <Form.Label> Branch</Form.Label>
+    <Form.Control  size="sm" type="text" placeholder=" Enter Branch" />
+
+  </Form.Group>
+
        <Form.Group className="mb-3" controlId="name">
     <Form.Label>Name</Form.Label>
-    <Form.Control  size="sm" type="email" placeholder="Enter Name" />
+    <Form.Control  size="sm" type="text" placeholder="Enter Name" />
 
   </Form.Group>
 
 
   <Form.Group className="mb-3" controlId="title">
     <Form.Label> Title</Form.Label>
-    <Form.Control  size="sm" type="email" placeholder="Enter Title" />
+    <Form.Control  size="sm" type="text" placeholder="Enter Title" />
 
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="Payroll Number">
     <Form.Label> Payroll Number</Form.Label>
-    <Form.Control  size="sm" type="email" placeholder=" Enter Payroll Number" />
+    <Form.Control  size="sm" type="password" placeholder=" Enter Payroll Number" />
 
   </Form.Group>
+
+  
 
   <Button variant="primary" size="sm">Submit</Button>
    </Form>

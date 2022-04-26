@@ -1,12 +1,12 @@
 const Frontend = {
-  "title":"Front-end",
+  "title":"FrontEnd",
   "navigationTitle": "Front-end",
   "showCompletedPage":false,
   "elements": [
     
     {
       "type": "matrixdropdown",
-      "name": "Front-end",
+      "name": "FrontEnd",
       "title": "Is the section clean?",
 
       "columns": [
