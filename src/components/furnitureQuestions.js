@@ -14,7 +14,7 @@ const Furniture = {
                 "name": "Furniture_Col1",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                // "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -49,7 +49,7 @@ const Furniture = {
             "1. Is the floor clean and dry?",
             "2. Are the fixtures clean?",
             "3. Is all fire fighting equipment accessable and not blocked?",
-            "4. Are all fire exits clear of obstruction and accessable. ",
+            "4. Are all fire exits clear of obstruction and accessable?",
           
             
          
@@ -78,7 +78,7 @@ const Furniture = {
                 "name": "Furniture_Col2",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                // "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -143,7 +143,7 @@ const Furniture = {
                 "name": "Furniture_Col3",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                // "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
    
             },

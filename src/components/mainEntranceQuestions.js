@@ -4,6 +4,7 @@ const MainEntranceQuestion = {
   "showCompletedPage": false,
   
   
+  
   "elements": [
 
     {
@@ -25,24 +26,32 @@ const MainEntranceQuestion = {
 
         {
           "name": "Main_nextstep1",
+          // "enableIf": "{Main_Col1}='No'",
           "cellType": "text",
+          // "isRequired": true,
           "title": "Next step"
         },
         {
           "name": "Main_who1",
+          // "enableIf": "{Main_Col1}='No'",
           "cellType": "text",
+          // "isRequired": true,
           "title": "who"
         }, {
           "name": "main_when1",
+          // "enableIf": "{Main_Col1}='No'",
           "title": "when(hrs)",
           "cellType": "text",
+          // "isRequired": true,
           "inputType": "time",
 
         },
         {
           "name": "main_completion1",
+          // "enableIf": "{Main_Col1}='No'",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
+          // "isRequired": true,
           "choices": ["Complete", "Not Complete "],
 
         },
@@ -69,7 +78,7 @@ const MainEntranceQuestion = {
           "name": "main_col2",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          // "isRequired": true,
+          "isRequired": true,
           "choices": ["Yes", "No"],
         },
         {
@@ -126,7 +135,7 @@ const MainEntranceQuestion = {
           "name": "main_col3",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          // "isRequired": true,
+          "isRequired": true,
           "choices": ["Yes", "No"],
         },
         {
@@ -178,7 +187,7 @@ const MainEntranceQuestion = {
           "name": "main_col4",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          // "isRequired": true,
+          "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
@@ -234,7 +243,7 @@ const MainEntranceQuestion = {
           "name": "main_col5",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          // "isRequired": true,
+          "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {

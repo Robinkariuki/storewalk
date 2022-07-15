@@ -14,7 +14,7 @@ const FMCG =  {
                 "name": "FMCG_Col1",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                // "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -49,7 +49,7 @@ const FMCG =  {
             "1. Is the floor clean and dry?",
             "2. Are the fixtures clean?",
             "3. Is all fire fighting equipment accessable and not blocked?",
-            "4. Are all fire exits clear of obstruction and accessable. ",
+            "4. Are all fire exits clear of obstruction and accessable? ",
           
             
          
@@ -78,7 +78,7 @@ const FMCG =  {
                 "name": "FMCG_col2",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -136,7 +136,7 @@ const FMCG =  {
                 "name": "FMCG_col3",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -199,7 +199,7 @@ const FMCG =  {
                 "name": "FMCG_col4",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -237,8 +237,8 @@ const FMCG =  {
             "3. Does every shelf have a shelf edge strip, and is it clean?",
             "4. Does every product have an SEL positioned centrally?",
             "5. Do all promotions have orange SELs and supporting slelf talkers?",
-            "6. Is the gondola 'Promotional' generic header and side signage in place?",
-            "7. Do promos match 'What Good Looks Like' photos?"
+            "6. Is the gondola (Promotional) generic header and side signage in place?",
+            "7. Do promos match (What Good Looks Like) photos?"
          
         ],
     
@@ -258,7 +258,7 @@ const FMCG =  {
                 "name": "FMCG_col5",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -299,7 +299,7 @@ const FMCG =  {
             "5. Do all promotions have orange SELs and appropreate supporting promo signage in the correct signage holders?",
             "6. Is the product on the Promo Stack clean? (Dust free)",
             "7. Is it accesable for customers to shop?",
-            "8. Do promos match 'What Good Looks Like' photos?",
+            "8. Do promos match (What Good Looks Like) photos?",
             "9 Are the promo start and end dates clear on the POS?"
          
         ],
@@ -322,7 +322,7 @@ const FMCG =  {
                 "name": "FMCG_col6",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -357,7 +357,7 @@ const FMCG =  {
         "rows": [
             "1. Is the Dairy section set up with sufficient stock levels for the expected trade?",
             "2. Have expiery date checks been completed?",
-            "3. Does the product quality meet Naivas's standard?",
+            "3. Does the product quality meet Naivas standard?",
             "4. Does every product have a clean price lable?",
             "5. Have the chillers been cleaned and are free from any spillages?",
             "6. Do the promotions have sufficient stock levels?",
@@ -388,7 +388,7 @@ const FMCG =  {
                 "name": "FMCG_col7",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -423,7 +423,7 @@ const FMCG =  {
         "rows": [
             "1. Is the Meat Chiller set up with sufficient stock levels for the expected trade?",
             "2. Have expiery date checks been completed?",
-            "3. Does the product quality meet Naivas's standard?",
+            "3. Does the product quality meet Naivas standard?",
             "4. Does every product have a clean price lable?",
             "5. Have the chillers been cleaned and are free from any spillages?",
             "6. Do the promotions have sufficient stock levels?",
@@ -449,7 +449,7 @@ const FMCG =  {
                 "name": "FMCG_col8",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {

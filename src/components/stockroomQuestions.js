@@ -48,7 +48,7 @@ const Stockroom =  {
         "rows": [
             "1. Is the floor clean and dry?",
             "2. Is all fire fighting equipment accessable and not blocked?",
-            "3. Are all fire exits clear of obstruction and accessable. ",
+            "3. Are all fire exits clear of obstruction and accessable?",
           
             
          

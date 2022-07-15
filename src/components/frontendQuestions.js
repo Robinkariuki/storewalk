@@ -14,7 +14,7 @@ const Frontend = {
               "name": "Frontend_Col1",
               "cellType": "radiogroup",
               "showInMultipleColumns": true,
-              // "isRequired": true,
+              "isRequired": true,
               "choices": ["Yes","No"],
  
           },
@@ -66,7 +66,7 @@ const Frontend = {
             "name": "Frontend_col2",
             "cellType": "radiogroup",
             "showInMultipleColumns": true,
-            // "isRequired": true,
+            "isRequired": true,
             "choices": ["Yes","No"]
         },
         {
@@ -124,7 +124,7 @@ const Frontend = {
               "name": "Frontend_col3",
               "cellType": "radiogroup",
               "showInMultipleColumns": true,
-              // "isRequired": true,
+              "isRequired": true,
               "choices": ["Yes","No"]
           },
           {
@@ -171,7 +171,7 @@ const Frontend = {
                 "name": "Frontend_col4",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                // "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"]
             },
             {

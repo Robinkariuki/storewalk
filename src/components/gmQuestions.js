@@ -14,7 +14,7 @@ const GM = {
                 "name": "GM_Col1",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                // "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -49,7 +49,7 @@ const GM = {
             "1. Is the floor clean and dry?",
             "2. Are the fixtures clean?",
             "3. Is all fire fighting equipment accessable and not blocked?",
-            "4. Are all fire exits clear of obstruction and accessable. ",
+            "4. Are all fire exits clear of obstruction and accessable?",
             "5. Are all company policies clearly displayed/ (eg no return of inner garments)?",
             "6. Do staff understand the after sales services available in the branch?"
         
@@ -73,7 +73,7 @@ const GM = {
                 "name": "GM_col2",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -130,7 +130,7 @@ const GM = {
                 "name": "GM_col3",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -192,7 +192,7 @@ const GM = {
                 "name": "GM_col4",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -230,9 +230,9 @@ const GM = {
             "3. Does every shelf have a shelf edge strip, and is it clean?",
             "4. Does every product have an SEL positioned centrally?",
             "5. Do all promotions have orange SELs and supporting slelf talkers?",
-            "6. Is the gondola 'Promotional'  generic header and side signage in place and in good condition?",
+            "6. Is the gondola (Promotional)  generic header and side signage in place and in good condition?",
             "7. Have all products been dusted so boxes are clean?",
-            "8. Do promos match 'What Good Looks Like' photos?"
+            "8. Do promos match (What Good Looks Like) photos?"
      
          
         ],
@@ -257,7 +257,7 @@ const GM = {
                 "name": "GM_col5",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-              //   "isRequired": true,
+                "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -297,7 +297,7 @@ const GM = {
             "5. Do all promotions have orange SELs and appropreate supporting promo signage in the correct signage holders?",
             "6. Is the product on the Promo Stack clean? (Dust free)",
             "7. Is it accesable for customers to shop?",
-            "8. Do promos match 'What Good Looks Like' photos?"
+            "8. Do promos match (What Good Looks Like) photos?"
      
          
         ],
