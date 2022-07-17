@@ -7,7 +7,8 @@ const useToken = () => {
         const userToken = JSON.parse(tokenString);
         return userToken
       };
-    const [token, setToken] = useState();
+    const [token, setToken] = useState(getToken());
+    
 
     const saveToken = (userToken) =>{
         sessionStorage.setItem('token',JSON.stringify(userToken))

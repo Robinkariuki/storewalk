@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,19 +20,28 @@ function App() {
   const {token,setToken} = useToken();
   
 
-console.log(token)
+  
+
+
   if(!token){
-    return <Home setToken={setToken}/>
+
+    return( 
+      <Router>
+      <Navigation token={token} />
+    <Home setToken={setToken}/>
+  </Router>
+    )
   }
   return (
 
 <Router>
-<Navigation/>
-  <Routes>
 
+<Navigation token={token}/>
+  <Routes>
+  <Route path ='/' element={<Questions token={token}/>}/>
   <Route path='/sections' element={<Sections/>}/>
-  <Route path ='/Questions' element={<Questions/>}/>
-  <Route path='/Pending'  element={< TabSelect/>}/>
+  <Route path='/Pending'  element={< TabSelect token={token}/>}/>
+
   
   </Routes>
 

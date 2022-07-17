@@ -14,7 +14,7 @@ const FMCG =  {
                 "name": "FMCG_Col1",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -78,7 +78,7 @@ const FMCG =  {
                 "name": "FMCG_col2",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -136,7 +136,7 @@ const FMCG =  {
                 "name": "FMCG_col3",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -199,7 +199,7 @@ const FMCG =  {
                 "name": "FMCG_col4",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -258,7 +258,7 @@ const FMCG =  {
                 "name": "FMCG_col5",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -322,7 +322,7 @@ const FMCG =  {
                 "name": "FMCG_col6",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -388,7 +388,7 @@ const FMCG =  {
                 "name": "FMCG_col7",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -449,7 +449,7 @@ const FMCG =  {
                 "name": "FMCG_col8",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {

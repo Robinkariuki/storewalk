@@ -1,5 +1,5 @@
 import React,{useState,useEffect,Fragment} from 'react'
-import { Table,Form,Button,Tabs,Tab } from 'react-bootstrap';
+import { Table,Form,Button} from 'react-bootstrap';
 
 import "./pending.css"
 import axios from "axios";
@@ -13,7 +13,7 @@ import EditRow from './editRow';
 
 
 
-const Pending = ({section}) => {
+const Pending = ({section,token}) => {
 
   
   const [pendingQ,setPending] = useState([])
@@ -33,12 +33,12 @@ const Pending = ({section}) => {
 
     
     const getPending =  ()=>{
-      console.log("fahs==>",section)
       axios({
         method:"post",
         url:"http://localhost:5000/storewalk/api/pendingData",
         data:{
-          title:section
+          title:section,
+          storeID:token
         },
           headers: {
             "Content-Type": "application/json"
@@ -118,6 +118,7 @@ const handleEditFormSubmit=  (e)=>{
       data:{
         data:newpendingQ,
         title:section
+
 
       },
       

@@ -14,7 +14,7 @@ const Furniture = {
                 "name": "Furniture_Col1",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -78,7 +78,7 @@ const Furniture = {
                 "name": "Furniture_Col2",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -143,7 +143,7 @@ const Furniture = {
                 "name": "Furniture_Col3",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
    
             },

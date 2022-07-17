@@ -19,7 +19,7 @@ const MainEntranceQuestion = {
           "name": "Main_Col1",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"],
 
         },
@@ -78,7 +78,7 @@ const MainEntranceQuestion = {
           "name": "main_col2",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"],
         },
         {
@@ -135,7 +135,7 @@ const MainEntranceQuestion = {
           "name": "main_col3",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"],
         },
         {
@@ -187,7 +187,7 @@ const MainEntranceQuestion = {
           "name": "main_col4",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
@@ -243,7 +243,7 @@ const MainEntranceQuestion = {
           "name": "main_col5",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {

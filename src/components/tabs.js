@@ -3,20 +3,19 @@ import React,{useState}from 'react'
 import { Tabs,Tab } from 'react-bootstrap';
 import Pending from './pending'
 
-const TabSelect = () => {
-    // const sectionsNames=["MainEntrance","Fresh","Front-end","FMCG","GM","Furniture","Stockroom","Receiving"]
+const TabSelect = ({token}) => {
+    
 
     const [section,setSection] = useState('')
    
     const handleSelect =(key)=>{
         
          setSection(key)
-        //  console.log(section)
+    
 
     }
 
 
-// console.log(section)
 
 
 
@@ -24,28 +23,28 @@ const TabSelect = () => {
     <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3" onSelect={handleSelect}>
         
   <Tab eventKey="MainEntrance" title="MainEntrance">
-      {(section ==="MainEntrance") ?<Pending section={section}/>: null }
+      {(section ==="MainEntrance") ?<Pending token={token} section={section}/>: null }
   </Tab>
   <Tab eventKey="Fresh" title="Fresh">
-  {(section ==="Fresh") ?<Pending section={section}/>: null }
+  {(section ==="Fresh") ?<Pending token={token} section={section}/>: null }
   </Tab>
   <Tab eventKey="FrontEnd" title="Front-end">
-  {(section ==="FrontEnd") ?<Pending section={section}/>: null }
+  {(section ==="FrontEnd") ?<Pending token={token} section={section}/>: null }
   </Tab>
   <Tab eventKey="FMCG" title="FMCG">
-  {(section ==="FMCG") ?<Pending section={section}/>: null }
+  {(section ==="FMCG") ?<Pending token={token} section={section}/>: null }
   </Tab>
   <Tab eventKey="GM" title="GM">
-  {(section ==="GM") ?<Pending section={section}/>: null }
+  {(section ==="GM") ?<Pending token={token} section={section}/>: null }
   </Tab>
   <Tab eventKey="Furniture" title="Furniture">
-  {(section ==="Furniture") ?<Pending section={section}/>: null }
+  {(section ==="Furniture") ?<Pending token={token} section={section}/>: null }
   </Tab>
   <Tab eventKey="Stockroom" title="Stockroom">
-  {(section ==="Stockroom") ?<Pending section={section}/>: null }
+  {(section ==="Stockroom") ?<Pending token={token} section={section}/>: null }
   </Tab>
   <Tab eventKey="Receiving" title="Receiving">
-  {(section ==="Receiving") ?<Pending section={section}/>: null }
+  {(section ==="Receiving") ?<Pending  token={token} section={section}/>: null }
   </Tab>
 
 </Tabs>

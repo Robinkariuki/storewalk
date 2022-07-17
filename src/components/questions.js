@@ -53,7 +53,7 @@ const surveyJson = {
 
 
 
-const Questions = () => {
+const Questions = ({token}) => {
 
     
     const survey = new Model(surveyJson);
@@ -67,38 +67,23 @@ survey.getAllQuestions().forEach(function(question) {
      
      
 
-  // Object.entries(question).forEach(
-  //   ([key, value]) =>{
-  //     console.log("key++>",key, "value++>",value)
-
-  //   } 
-  //   )
-    //   if(value.value === undefined) {
-    //     value.value = null; // some empty value you can write result[question.name] = undefined; but it will look weird
-    // }
-      
-      
-
-   
 
   
     
 
 
-    // console.log(typeof(question))
-    // if(results[question.name] === undefined) {
-    //     results[question.name] = null; // some empty value you can write result[question.name] = undefined; but it will look weird
-    // }
-    // console.log(question.isValueEmpty())
+
 });
    
-      // alert(results);
-      // console.log(results)
+
 
        axios({
          method:"post",
          url:"http://localhost:5000/storewalk/api/questionData",
-         data:results
+         data:{
+          results,
+          token
+        }
         })
          .then(resp=>{
            console.log(resp)

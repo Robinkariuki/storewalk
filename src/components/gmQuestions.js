@@ -14,7 +14,7 @@ const GM = {
                 "name": "GM_Col1",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
    
             },
@@ -73,7 +73,7 @@ const GM = {
                 "name": "GM_col2",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -130,7 +130,7 @@ const GM = {
                 "name": "GM_col3",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -192,7 +192,7 @@ const GM = {
                 "name": "GM_col4",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {
@@ -257,7 +257,7 @@ const GM = {
                 "name": "GM_col5",
                 "cellType": "radiogroup",
                 "showInMultipleColumns": true,
-                "isRequired": true,
+                // "isRequired": true,
                 "choices": ["Yes","No"],
             },
             {

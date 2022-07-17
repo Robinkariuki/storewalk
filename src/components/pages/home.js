@@ -32,9 +32,9 @@ const Home = ({setToken}) => {
   
   }
 
-  const handleSubmit = async  e =>{
+  const handleSubmit =   e =>{
     e.preventDefault();
-    const token = await loginUser({
+    const token =  loginUser({
       Branch:branchName,
       storeID :branchId
     });

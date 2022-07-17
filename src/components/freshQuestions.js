@@ -13,7 +13,7 @@ const Fresh = {
           "name": "Fresh_Col1",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"],
 
         },
@@ -79,7 +79,7 @@ const Fresh = {
           "name": "Fresh_col2",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-            "isRequired": true,
+            // "isRequired": true,
           "choices": ["Yes", "No"],
         },
         {
@@ -142,7 +142,7 @@ const Fresh = {
           "name": "Fresh_col3",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"],
         },
         {
@@ -200,7 +200,7 @@ const Fresh = {
           "name": "Fresh_col4",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-            "isRequired": true,
+            // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
@@ -269,7 +269,7 @@ const Fresh = {
           "name": "Fresh_col5",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-            "isRequired": true,
+            // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
@@ -328,7 +328,7 @@ const Fresh = {
           "name": "Fresh_col6",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
@@ -384,7 +384,7 @@ const Fresh = {
           "name": "Fresh_col7",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
@@ -439,7 +439,7 @@ const Fresh = {
           "name": "Fresh_col8",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
@@ -496,7 +496,7 @@ const Fresh = {
           "name": "Fresh_col9",
           "cellType": "radiogroup",
           "showInMultipleColumns": true,
-          "isRequired": true,
+          // "isRequired": true,
           "choices": ["Yes", "No"]
         },
         {
